@@ -112,3 +112,31 @@ p {
 .div_color_none {
   background-color: rgba(255, 255, 255, 0);
 }
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 200;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+.element_sidebar {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 5px;
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+}
+.element_sidebar:hover {
+  font-size: 30px;
+  color: white;
+}
+#page-content {
+  margin-left: 300px;
+}
